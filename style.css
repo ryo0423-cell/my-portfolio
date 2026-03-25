@@ -358,6 +358,8 @@ footer {
 
   .hamburger {
     display: block;
+    margin-left: auto;
+    margin-right: 0px;
   }
 
   #nav-menu {
@@ -408,6 +410,17 @@ footer {
   
   .about-text-container {
     padding: 30px 20px;
+}
+
+ .work-detail-container {
+    padding: 30px 20px;
+  }
+  .work-detail-container h2 {
+    font-size: 1.5rem;
+  }
+  .action-buttons {
+    flex-direction: column;
+  }
 }
 /* =========================================
    Works詳細ページのレイアウト
@@ -486,17 +499,4 @@ footer {
 .outline-btn:hover {
   background-color: var(--text-color);
   color: #fff;
-}
-
-/* 詳細ページのスマホ向け調整 */
-@media (max-width: 768px) {
-  .work-detail-container {
-    padding: 30px 20px;
-  }
-  .work-detail-container h2 {
-    font-size: 1.5rem;
-  }
-  .action-buttons {
-    flex-direction: column;
-  }
 }
