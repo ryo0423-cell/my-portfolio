@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-width=1.0" />
     <title>About - My Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1><a href="index.html" style="color: inherit; text-decoration: none;">Portfolio</a></h1>
+      <h1><a href="index.html">Portfolio</a></h1>
       <button class="hamburger" id="hamburger">
         <span></span><span></span><span></span>
       </button>
       <nav>
         <ul id="nav-menu">
-          <li><a href="about.html" style="color: var(--primary-color);">About</a></li>
+          <li><a href="about.html" class="active">About</a></li>
           <li><a href="skills.html">Skills</a></li>
           <li><a href="works.html">Works</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -25,9 +25,17 @@
 
     <main id="about" class="page-content fade-in">
       <h2>About</h2>
-      <p style="text-align: center; font-size: 1.1rem;">
-        フロントエンドエンジニアを目指して HTML / CSS / JavaScript を中心に学習しています。
-      </p>
+      <div class="about-text-container">
+        <p>
+          現在、フロントエンドエンジニアを目指して<span class="highlight">HTML / CSS / JavaScript</span>を用いたWeb制作を学習しています。
+        </p>
+        <p>
+          単に美しいデザインをコードで形にするだけでなく、ターゲットに情報を適切に届ける<span class="highlight">「SNSマーケティングの視点」</span>も意識したサイト設計を心がけています。
+        </p>
+        <p>
+          また、制作を進める上では<span class="highlight">「レスポンスの速さ」</span>と<span class="highlight">「丁寧なコミュニケーション」</span>を何より大切にしています。今後はさらに技術を磨き、クライアントに安心感を持って任せていただける、信頼されるエンジニアを目指します。
+        </p>
+      </div>
     </main>
 
     <footer>
